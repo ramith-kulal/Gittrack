@@ -1,7 +1,7 @@
 import { Spotlight } from "@/components/ui/spotlight";
 import InputBox from "@/components/InputBox";
 import { SplineScene } from "@/components/ui/splite";
-
+import { Analytics } from "@vercel/analytics/react"
 export default function Home() {
   return (
     <div className="relative min-h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center bg-black text-white px-6 sm:px-8 md:px-16 py-12 gap-12">
@@ -44,6 +44,7 @@ export default function Home() {
           Ramith Kulal
         </a>
       </div>
+      <Analytics/>
     </div>
   );
 }
