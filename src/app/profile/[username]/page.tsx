@@ -17,7 +17,7 @@ export default function ProfilePage() {
         <FaSpinner className="animate-spin text-4xl text-indigo-500" />
         <p className="mt-4 text-gray-400 italic text-sm">{getRandomRoast()}</p>
       </div>
-    );
+    );   
 
     if (error)
       return (
