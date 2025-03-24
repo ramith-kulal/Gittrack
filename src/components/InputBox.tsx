@@ -14,7 +14,7 @@ export default function Home() {
       router.push(`/profile/${username}`);
     }
   };
-
+ 
   return (
     <div className="flex justify-center ">
       <form onSubmit={handleSubmit} className="relative w-full max-w-lg flex">
