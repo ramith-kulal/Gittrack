@@ -2,7 +2,7 @@
  
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa"; 
 
 export default function Home() {
   const [username, setUsername] = useState("");
